@@ -1,0 +1,93 @@
+body{
+    background: azure;
+}
+#game-board{
+    position: relative;
+    top: 40px;
+    left: 25%;
+    padding: 5px;
+    border: 2px solid black;
+    width: 655px;
+    height: 650px;
+    left: right;
+    background: white;
+}
+.box {
+    border: 2px solid white;
+    width: 80px;
+    height: 80px;
+    float: left;
+    text-align: center;
+}
+.br-1{
+    clear: left;
+}
+#menu{
+    position: relative;
+    top: -600px;
+    left: 1090px;
+    width: 400px;
+    height: 635px;
+    border: 2px solid black;
+    background: white;
+    float: left;
+}
+.dark{background:url("../img/darkback.png");}
+.light{background:url("../img/whiteback.png");}
+.button{
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+}
+.select-box{
+    position: relative;
+    top: 7px;
+}
+#turn{
+    position: relative;
+    top: -350px;
+    left: -250px;
+}
+#indexLetter{
+    float: left;
+    position: relative;
+    top: -660px;
+    left: -70px;
+}
+.letter{
+    padding: 20px 20px;
+}
+#indexNumber{
+    position: absolute;
+    top: 10px;
+    left: 420px;
+    display: inline;
+}
+.number{
+    float: left;
+    clear: right;
+    width: 80px;
+}
+.select-box{
+    position: relative;
+    top: 3px;
+}
+.eat-box{
+    position: relative;
+    top: -60px;
+}
+#historic{
+    width: 350px;
+    height: 500px;
+    position: relative;
+    top: 30px;
+    left: 25px;
+}
